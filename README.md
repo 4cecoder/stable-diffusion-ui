@@ -73,6 +73,10 @@ You don't need to install or struggle with Python, Anaconda, Docker etc. The ins
 # Installation
 1. **Download** [for Windows](https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-win64.zip) or [for Linux](https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz).
 
+### Quick linux command
+`wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz && tar -xf stable-diffusion-ui-linux.tar.xz && rm *.tar.xz && cd stable-diffusion-linux`
+
+
 2. **Extract**:
   - For Windows: After unzipping the file, please move the `stable-diffusion-ui` folder to your `C:` (or any drive like D:, at the top root level), e.g. `C:\stable-diffusion-ui`. This will avoid a common problem with Windows (file path length limits).
   - For Linux: After extracting the .tar.xz file, please open a terminal, and go to the `stable-diffusion-ui` directory.
